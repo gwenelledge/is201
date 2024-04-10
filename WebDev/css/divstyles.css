@@ -1,0 +1,36 @@
+/*positioning styles*/ 
+.common{
+    position: absolute; 
+    /* border: 5px solid cornflowerblue; 
+    background-color: honeydew; */
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    background-color: lightpink;
+}
+.top{
+top: 0px;
+left: 0px;
+right: 0px;
+text-align: center;
+
+}
+.content{
+    top: 90px;
+    left:0px;
+    right:0px;
+    height: 100%;
+    
+}
+
+.nav{
+    position: relative;
+    float: right;
+    color: plum
+}
